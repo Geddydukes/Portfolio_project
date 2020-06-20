@@ -1,0 +1,28 @@
+.Header {
+  background-color: rgb(113, 124, 134);
+  text-align: left;
+  padding: 30px 10px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration-line: none;
+
+  a {
+    color: #fff;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: darken(#fff, 20%);
+    }
+  }
+
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style-type: none;
+      padding: 0px 10px;
+    }
+  }
+}
