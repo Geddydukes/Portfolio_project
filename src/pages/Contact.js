@@ -13,6 +13,7 @@ const Contact = () => {
           <p>Email: Gdukes707@gmail.com</p>
         </div>
       </section>
+      <section className="homeSection3"></section>
       <section className="homeSection2">
         <h3>Social Media Contact</h3>
         <br></br>
@@ -36,7 +37,6 @@ const Contact = () => {
           </span>
         </div>
       </section>
-      <section className="homeSection3"></section>
     </div>
   );
 };
