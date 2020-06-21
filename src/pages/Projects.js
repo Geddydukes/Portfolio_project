@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 
 const Projects = () => {
   return (
-    <div className="homePage">
+    <div className="projectPage">
       <section className="homeSection1">
         <div className="e-comm">
           <h3>E-comm</h3>

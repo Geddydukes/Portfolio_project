@@ -1,11 +1,4 @@
 import React from "react";
-import myPhoto from "../images/IMG_8474 2.jpeg";
-
-const sectionStyle = {
-  width: "100%",
-  height: "100%",
-  backgroundImage: `url(${myPhoto})`,
-};
 
 const Home = () => {
   return (
