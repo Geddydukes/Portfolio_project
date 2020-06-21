@@ -6,6 +6,7 @@
 html {
   min-height: 100vh;
   color: white;
+  font-family: "Raleway", sans-serif;
 }
 
 .homePage {
@@ -15,6 +16,7 @@ html {
   align-items: center;
   justify-content: center;
   display: flex;
+  font-family: "Raleway", sans-serif;
 }
 
 .homeSection1 {
@@ -22,9 +24,12 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 65vh;
+  min-height: 65vh;
   width: 100%;
-  background-color: rgb(162, 179, 172);
+  background-color: rgb(223, 228, 204);
+  color: black;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
 }
 
 .homeSection2 {
@@ -32,21 +37,31 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 65vh;
+  min-height: 65vh;
   width: 100%;
-  background-color: rgb(177, 192, 196);
+  background-color: rgb(76, 123, 138);
+  color: whitesmoke;
 }
 .homeSection3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 65vh;
+  min-height: 65vh;
   width: 100%;
   background-color: rgb(121, 143, 135);
   background: url("https://odis.homeaway.com/odis/destination/ccea069e-864b-4ff6-9232-6566a9e82f6d.hw5.jpg")
     no-repeat center center;
-  opacity: 0.7;
+}
+
+.homeSection4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 65vh;
+  width: 100%;
+  background-color: rgb(223, 228, 204);
 }
 
 .homeFace {
@@ -66,16 +81,123 @@ html {
 .myBackStory {
   margin-left: 10%;
   margin-right: 10%;
+  background: white;
+  opacity: 0.5;
+  color: black;
+}
+
+.myBackStory:hover {
+  margin-left: 10%;
+  margin-right: 10%;
+  background: white;
+  opacity: 1;
+  color: black;
 }
 
 .futureAmbitions {
   margin-left: 10%;
   margin-right: 10%;
-  background: rgb(173, 171, 171);
+  background: white;
+  opacity: 0.5;
+}
+
+.futureAmbitions:hover {
+  margin-left: 10%;
+  margin-right: 10%;
+  background: white;
   opacity: 1;
 }
 
-.futureAmbitions {
+.futureAmbitionsArticle {
   color: rgb(31, 7, 53);
   z-index: 1;
+  opacity: 1;
+  font-weight: 500;
+}
+
+.resumePage {
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.devSkills {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.devSkills h3 {
+  text-align: center;
+}
+.devSkills bold {
+  font-weight: 600;
+}
+
+.proExperience {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.proExperience h3 {
+  text-align: center;
+}
+.proExperience bold {
+  font-weight: 600;
+  color: rgb(214, 204, 144);
+}
+
+.education {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.education h3 {
+  text-align: center;
+}
+.education bold {
+  font-weight: 600;
+}
+
+.e-comm {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.e-comm h3 {
+  text-align: center;
+}
+.e-comm bold {
+  font-weight: 600;
+}
+
+.pokeTracker {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.pokeTracker h3 {
+  text-align: center;
+}
+.pokeTracker bold {
+  font-weight: 600;
+}
+
+.movieBook {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.movieBook h3 {
+  text-align: center;
+}
+.movieBook bold {
+  font-weight: 600;
+  color: rgb(214, 204, 144);
+}
+
+.movieBook a {
+  color: rgb(214, 204, 144);
 }
