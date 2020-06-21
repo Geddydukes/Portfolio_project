@@ -44,17 +44,38 @@ html {
   height: 65vh;
   width: 100%;
   background-color: rgb(121, 143, 135);
+  background: url("https://odis.homeaway.com/odis/destination/ccea069e-864b-4ff6-9232-6566a9e82f6d.hw5.jpg")
+    no-repeat center center;
+  opacity: 0.7;
 }
 
 .homeFace {
   border-radius: 50%;
   position: relative;
-  margin-left: auto;
+  margin-left: 10%;
   padding-left: 15px;
   padding-right: 20px;
   float: left;
 }
 
 .introductory-body {
-  margin: auto;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.myBackStory {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.futureAmbitions {
+  margin-left: 10%;
+  margin-right: 10%;
+  background: rgb(173, 171, 171);
+  opacity: 1;
+}
+
+.futureAmbitions {
+  color: rgb(31, 7, 53);
+  z-index: 1;
 }

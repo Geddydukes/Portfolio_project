@@ -1,4 +1,11 @@
 import React from "react";
+import myPhoto from "../images/IMG_8474 2.jpeg";
+
+const sectionStyle = {
+  width: "100%",
+  height: "100%",
+  backgroundImage: `url(${myPhoto})`,
+};
 
 const Home = () => {
   return (
@@ -18,8 +25,30 @@ const Home = () => {
           </article>
         </span>
       </section>
-      <section className="homeSection2">This is section two</section>
-      <section className="homeSection3">This is section three</section>
+      <section className="homeSection2">
+        <article className="myBackStory">
+          Coming from a background in consulting and finance I look forward to
+          continually learning, while attacking big problems and creating
+          innovative solutions. My passions are many and lie in a variety of
+          fields, ranging from geopolitics & history to sports marketing &
+          financial technology. I’d love to dive deep and help solve the
+          problems of today to create a better tomorrow.
+        </article>
+      </section>
+      <section className="homeSection3">
+        <div className="futureAmbitions">
+          <article className="futureAmbitionsArticle">
+            Going forward I am looking for a career at a company where I can
+            make a difference; writing revolutionary code, that will help change
+            lives for the better. Keeping my passions and previous experience in
+            mind, I am currently seeking out roles in technology field, focusing
+            on companies in the financial, marketing, international commerce,
+            and sports industries. However, I am an open minded individual who
+            is willing and ready to help solve tech challenges within any
+            industry.
+          </article>
+        </div>
+      </section>
     </div>
   );
 };
